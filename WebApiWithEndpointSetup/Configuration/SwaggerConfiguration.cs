@@ -31,7 +31,7 @@ namespace WebApiWithEndpointSetup.Configuration
                     // hold additional metadata for an API. Version and title are required but you can also provide
                     // additional fields by chaining methods off SingleApiVersion.
                     //
-                    c.SingleApiVersion("v1", "Tris integration api");
+                    c.SingleApiVersion("v1", "test integration api");
 
                     // If your API has multiple versions, use "MultipleApiVersions" instead of "SingleApiVersion".
                     // In this case, you must provide a lambda that tells Swashbuckle which actions should be
@@ -247,7 +247,7 @@ namespace WebApiWithEndpointSetup.Configuration
 
         private static string XmlCommentsFilePath()
         {
-            var xmlCommentsPath = $"{AppDomain.CurrentDomain.BaseDirectory}\\bin\\Tris.Integration.Api.xml";
+            var xmlCommentsPath = $"{AppDomain.CurrentDomain.BaseDirectory}\\bin\\test.Integration.Api.xml";
             return xmlCommentsPath;
         }
 
