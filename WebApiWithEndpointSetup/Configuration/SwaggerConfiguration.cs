@@ -247,7 +247,7 @@ namespace WebApiWithEndpointSetup.Configuration
 
         private static string XmlCommentsFilePath()
         {
-            var xmlCommentsPath = $"{AppDomain.CurrentDomain.BaseDirectory}\\bin\\test.Integration.Api.xml";
+            var xmlCommentsPath = $"{AppDomain.CurrentDomain.BaseDirectory}\\bin\\Test.Api.xml";
             return xmlCommentsPath;
         }
 
